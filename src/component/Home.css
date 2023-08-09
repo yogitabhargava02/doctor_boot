@@ -1,0 +1,164 @@
+.top-bar {
+  color: black;
+  text-align: right;
+  background-color: rgb(6, 173, 239);
+  margin: 0;
+  padding: 10px 0;
+}
+
+.container-bg {
+  background: linear-gradient(to bottom, #F5FCFF, #ADD8E6);
+  background: -webkit-linear-gradient(top, #F5FCFF, #ADD8E6);
+  background: -moz-linear-gradient(top, #F5FCFF,  #ADD8E6);
+  background: -o-linear-gradient(top, #F5FCFF,  #ADD8E6);
+  background: -ms-linear-gradient(top, #F5FCFF, #ADD8E6);
+  padding: 50px;
+}
+
+.top-bar-icons{
+  margin-right: 200px;
+  justify-content: space-between;
+}
+
+.container-bg h1,
+.container-bg p {
+  text-align: justify;
+  margin-left: 150px;
+  text-align: justify;
+  max-width: 800px;
+  color: black;
+}
+
+.top-bar-icons a i {
+  margin-right: 10px;
+}
+
+.services-section {
+  background: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.services-section h1,
+.services-section p {
+  color: black;
+  text-align: center;
+}
+
+.rservice-box {
+  padding: 20px;
+  border-style: none;
+  border: 1px solid #ccc;
+  margin: 40px auto;
+  max-width: 400px;
+}
+
+.service-box {
+  padding: 20px;
+  border: 1px solid skyblue;
+  background-color: #ADD8E6;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.service-box h2,
+.rservice-box h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+}
+
+.service-box i,
+.rservice-box i {
+  font-size: 2rem;
+  margin-top: -28px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.underline {
+  width: 150px;
+  height: 3px;
+  background-color: #3498db;
+  margin: 15px auto;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo-and-service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-box i {
+  margin-bottom: 10px;
+}
+
+.sectiontwo {
+  padding-top: 80px;
+}
+
+.footer-section {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-top: 0;
+}
+
+.footer-section h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-section input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  font-weight: 800;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.footer-section button.btn-primary {
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+.ml {
+  margin-left: 250px;
+}
+
+.left {
+  justify-content: left;
+}
+
+.sectiontwo h2,
+.sectiontwo p {
+  text-align: justify;
+  margin-left: 150px;
+  color: black;
+}
+
+.service-box p,
+.rservice-box p {
+  text-align: center;
+}
